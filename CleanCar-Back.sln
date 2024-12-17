@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanCar.API", "CleanCar.API\CleanCar.API.csproj", "{BA281847-C289-46AA-AD67-D3FFB448A822}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanCar.Api", "CleanCar.API\CleanCar.Api.csproj", "{BA281847-C289-46AA-AD67-D3FFB448A822}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanCar.Domain", "CleanCar.Domain\CleanCar.Domain.csproj", "{B72BF187-E45B-464B-97ED-F0B6ABF29D44}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{BA281847-C289-46AA-AD67-D3FFB448A822}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA281847-C289-46AA-AD67-D3FFB448A822}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA281847-C289-46AA-AD67-D3FFB448A822}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B72BF187-E45B-464B-97ED-F0B6ABF29D44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B72BF187-E45B-464B-97ED-F0B6ABF29D44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B72BF187-E45B-464B-97ED-F0B6ABF29D44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B72BF187-E45B-464B-97ED-F0B6ABF29D44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
