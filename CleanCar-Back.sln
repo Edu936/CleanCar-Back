@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanCar.Application", "Cle
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanCar.Infrastructure", "CleanCar.Infrastructure\CleanCar.Infrastructure.csproj", "{B5631944-E793-4085-9F0F-DD331576222D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B13395D0-2D71-45BB-960E-C61136FC407D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BA281847-C289-46AA-AD67-D3FFB448A822} = {B13395D0-2D71-45BB-960E-C61136FC407D}
+		{B72BF187-E45B-464B-97ED-F0B6ABF29D44} = {B13395D0-2D71-45BB-960E-C61136FC407D}
+		{72180702-B696-459F-A2A5-293B7EAF3507} = {B13395D0-2D71-45BB-960E-C61136FC407D}
+		{B5631944-E793-4085-9F0F-DD331576222D} = {B13395D0-2D71-45BB-960E-C61136FC407D}
 	EndGlobalSection
 EndGlobal

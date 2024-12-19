@@ -1,4 +1,5 @@
-﻿using CleanCar.Domain.Models;
+﻿using CleanCar.Application.DTOs;
+using CleanCar.Application.IService;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -8,11 +9,16 @@ namespace CleanCar.Api.Controllers
     [ApiController]
     public class CidadeController : ControllerBase
     {
-        [HttpGet]
-        public ActionResult<string> Get()
+        private readonly ICidadeService _cidadeService;
+        public CidadeController(ICidadeService cidadeService) 
         {
-            return "Olá mundo";
+            _cidadeService = cidadeService;
         }
 
+        [HttpGet]
+        public async Task<CidadeDTO> Created([FromBody] CidadeDTO cidade)
+        {
+            return await _cidadeService.Created(cidade);
+        }
     }
 }

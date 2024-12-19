@@ -7,7 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CleanCar.Application\CleanCar.Application.csproj" />
     <ProjectReference Include="..\CleanCar.Domain\CleanCar.Domain.csproj" />
+    <ProjectReference Include="..\CleanCar.Infrastructure\CleanCar.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
